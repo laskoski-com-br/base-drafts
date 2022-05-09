@@ -4,7 +4,7 @@
 
 Internet Engineering Task Force (IETF)                    M. Bishop, Ed.
 Request for Comments: 9114                                        Akamai
-Category: Standards Track                                  26 April 2022
+Category: Standards Track                                     9 May 2022
 ISSN: 2070-1721
 
 
@@ -2971,31 +2971,31 @@ Acknowledgments
    from many people.  Among others, the following people provided
    substantial contributions to this document:
 
-   *  Bence Béky
-   *  Daan De Meyer
-   *  Martin Duke
-   *  Roy Fielding
-   *  Alan Frindell
-   *  Alessandro Ghedini
-   *  Nick Harper
-   *  Ryan Hamilton
-   *  Christian Huitema
-   *  Subodh Iyengar
-   *  Robin Marx
-   *  Patrick McManus
-   *  Luca Niccolini
-   *  奥 一穂 (Kazuho Oku)
-   *  Lucas Pardue
-   *  Roberto Peon
-   *  Julian Reschke
-   *  Eric Rescorla
-   *  Martin Seemann
-   *  Ben Schwartz
-   *  Ian Swett
-   *  Willy Taureau
-   *  Martin Thomson
-   *  Dmitri Tikhonov
-   *  Tatsuhiro Tsujikawa
+   *  {{{Bence Beky}}}
+   *  {{{Daan De Meyer}}}
+   *  {{{Martin Duke}}}
+   *  {{{Roy Fielding}}}
+   *  {{{Alan Frindell}}}
+   *  {{{Alessandro Ghedini}}}
+   *  {{{Nick Harper}}}
+   *  {{{Ryan Hamilton}}}
+   *  {{{Christian Huitema}}}
+   *  {{{Subodh Iyengar}}}
+   *  {{{Robin Marx}}}
+   *  {{{Patrick McManus}}}
+   *  {{{Luca Niccolini}}}
+   *  {{{Kazuho Oku}{&#22885; &#19968;&#31298;}}}
+   *  {{{Lucas Pardue}}}
+   *  {{{Roberto Peon}}}
+   *  {{{Julian Reschke}}}
+   *  {{{Eric Rescorla}}}
+   *  {{{Martin Seemann}}}
+   *  {{{Ben Schwartz}}}
+   *  {{{Ian Swett}}}
+   *  {{{Willy Taureau}}}
+   *  {{{Martin Thomson}}}
+   *  {{{Dmitri Tikhonov}}}
+   *  {{{Tatsuhiro Tsujikawa}}}
 
    A portion of Mike Bishop's contribution was supported by Microsoft
    during his employment there.
@@ -3158,6 +3158,15 @@ Index
 
       M
 
+         malformed  Section 4.1, Paragraph 3; Section 4.1.2, Paragraph
+            1; Section 4.1.2, Paragraph 3; Section 4.1.2, Paragraph 4;
+            Section 4.1.2, Paragraph 5; Section 4.1.2, Paragraph 5;
+            Section 4.2, Paragraph 2; Section 4.2, Paragraph 3;
+            Section 4.2, Paragraph 5; Section 4.3, Paragraph 3;
+            Section 4.3, Paragraph 4; Section 4.3.1, Paragraph 5;
+            Section 4.3.2, Paragraph 1; Section 4.4, Paragraph 5;
+            Section 8.1, Paragraph 2.30.1; Section 10.3, Paragraph 1;
+            Section 10.3, Paragraph 2; Section 10.5.1, Paragraph 2
          MAX_PUSH_ID  Section 2, Paragraph 5; Section 4.6, Paragraph 3;
             Section 4.6, Paragraph 3; Section 4.6, Paragraph 3;
             Section 4.6, Paragraph 3; Table 1; Section 7.2.5, Paragraph
@@ -3168,35 +3177,9 @@ Index
             Section 7.2.7, Paragraph 6; Section 7.2.7, Paragraph 6;
             Table 2; Appendix A.1, Paragraph 4; Appendix A.3, Paragraph
             4.4.1
-         malformed  Section 4.1, Paragraph 3; Section 4.1.2, Paragraph
-            1; Section 4.1.2, Paragraph 3; Section 4.1.2, Paragraph 4;
-            Section 4.1.2, Paragraph 5; Section 4.1.2, Paragraph 5;
-            Section 4.2, Paragraph 2; Section 4.2, Paragraph 3;
-            Section 4.2, Paragraph 5; Section 4.3, Paragraph 3;
-            Section 4.3, Paragraph 4; Section 4.3.1, Paragraph 5;
-            Section 4.3.2, Paragraph 1; Section 4.4, Paragraph 5;
-            Section 8.1, Paragraph 2.30.1; Section 10.3, Paragraph 1;
-            Section 10.3, Paragraph 2; Section 10.5.1, Paragraph 2
 
       P
 
-         PUSH_PROMISE  Section 2, Paragraph 5; Section 4.1, Paragraph 8;
-            Section 4.1, Paragraph 8; Section 4.1, Paragraph 8;
-            Section 4.1, Paragraph 8; Section 4.1, Paragraph 10;
-            Section 4.6, Paragraph 4; Section 4.6, Paragraph 10;
-            Section 4.6, Paragraph 11; Section 4.6, Paragraph 11;
-            Section 4.6, Paragraph 12; Section 4.6, Paragraph 12;
-            Section 4.6, Paragraph 13; Section 4.6, Paragraph 13;
-            Section 4.6, Paragraph 13; Table 1; Section 7.2.3, Paragraph
-            8; Section 7.2.3, Paragraph 8; Section 7.2.5, Paragraph 1;
-            Section 7.2.5, Paragraph 5; Section 7.2.5, Paragraph 6;
-            Section 7.2.5, Paragraph 6; Section 7.2.5, Paragraph 7;
-            Section 7.2.5, Paragraph 8; Section 7.2.5, Paragraph 9;
-            Section 7.2.5, Paragraph 9; Section 7.2.7, Paragraph 1;
-            Section 10.4, Paragraph 1; Section 10.5, Paragraph 2;
-            Table 2; Appendix A.2.5; Appendix A.2.5, Paragraph 1.12.1;
-            Appendix A.2.5, Paragraph 1.12.1; Appendix A.2.5, Paragraph
-            1.20.1
          push ID  Section 4.6, Paragraph 2; Section 4.6, Paragraph 2;
             Section 4.6, Paragraph 3; Section 4.6, Paragraph 3;
             Section 4.6, Paragraph 3; Section 4.6, Paragraph 4;
@@ -3233,6 +3216,23 @@ Index
             Section 7.2.3, Paragraph 4; Section 7.2.3, Paragraph 4;
             Section 7.2.3, Paragraph 4; Section 7.2.5, Paragraph 4.2.1;
             Section 7.2.7, Paragraph 1; Appendix A.2.5, Paragraph 1.12.1
+         PUSH_PROMISE  Section 2, Paragraph 5; Section 4.1, Paragraph 8;
+            Section 4.1, Paragraph 8; Section 4.1, Paragraph 8;
+            Section 4.1, Paragraph 8; Section 4.1, Paragraph 10;
+            Section 4.6, Paragraph 4; Section 4.6, Paragraph 10;
+            Section 4.6, Paragraph 11; Section 4.6, Paragraph 11;
+            Section 4.6, Paragraph 12; Section 4.6, Paragraph 12;
+            Section 4.6, Paragraph 13; Section 4.6, Paragraph 13;
+            Section 4.6, Paragraph 13; Table 1; Section 7.2.3, Paragraph
+            8; Section 7.2.3, Paragraph 8; Section 7.2.5, Paragraph 1;
+            Section 7.2.5, Paragraph 5; Section 7.2.5, Paragraph 6;
+            Section 7.2.5, Paragraph 6; Section 7.2.5, Paragraph 7;
+            Section 7.2.5, Paragraph 8; Section 7.2.5, Paragraph 9;
+            Section 7.2.5, Paragraph 9; Section 7.2.7, Paragraph 1;
+            Section 10.4, Paragraph 1; Section 10.5, Paragraph 2;
+            Table 2; Appendix A.2.5; Appendix A.2.5, Paragraph 1.12.1;
+            Appendix A.2.5, Paragraph 1.12.1; Appendix A.2.5, Paragraph
+            1.20.1
 
       R
 
