@@ -11,7 +11,7 @@
        This document describes loss detection and congestion control mechanisms for
 QUIC. 
     " name="description">
-<meta content="xml2rfc 3.12.4" name="generator">
+<meta content="xml2rfc 3.12.5" name="generator">
 <meta content="bbr" name="keyword">
 <meta content="delay-sensitive congestion control" name="keyword">
 <meta content="fec" name="keyword">
@@ -19,7 +19,7 @@ QUIC.
 <meta content="next generation" name="keyword">
 <meta content="9002" name="rfc.number">
 <!-- Generator version information:
-  xml2rfc 3.12.4
+  xml2rfc 3.12.5
     Python 3.9.7
     appdirs 1.4.4
     ConfigArgParse 1.3
@@ -2996,7 +2996,7 @@ OnDatagramReceived(datagram):
 <p id="appendix-A.7-1">When an ACK frame is received, it may newly acknowledge any number of packets.<a href="#appendix-A.7-1" class="pilcrow">¶</a></p>
 <p id="appendix-A.7-2">Pseudocode for OnAckReceived and UpdateRtt follow:<a href="#appendix-A.7-2" class="pilcrow">¶</a></p>
 <div id="appendix-A.7-3">
-<pre class="lang-pseudocode sourcecode">
+<pre class="breakable lang-pseudocode sourcecode">
 IncludesAckEliciting(packets):
   for packet in packets:
     if (packet.ack_eliciting):
@@ -3083,7 +3083,7 @@ timers wake up late. Timers set in the past fire immediately.<a href="#appendix-
 <p id="appendix-A.8-3">Pseudocode for SetLossDetectionTimer follows (where the "^" operator represents
 exponentiation):<a href="#appendix-A.8-3" class="pilcrow">¶</a></p>
 <div id="appendix-A.8-4">
-<pre class="lang-pseudocode sourcecode">
+<pre class="breakable lang-pseudocode sourcecode">
 GetLossTimeAndSpace():
   time = loss_time[Initial]
   space = Initial
