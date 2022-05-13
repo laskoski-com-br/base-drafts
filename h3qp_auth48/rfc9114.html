@@ -2473,10 +2473,10 @@ graceful shutdown of an HTTP/3 connection by sending a <a href="#frame-goaway" c
 frame contains an identifier that indicates to the receiver the range of
 requests or pushes that were or might be processed in this connection.  The
 server sends a client-initiated bidirectional stream ID; the client sends a <a href="#server-push" class="xref">push
-ID</a><span id="iref-push-id-122" class="iref"></span> (<a href="#server-push" class="xref">Section 4.6</a>).  Requests or pushes with the indicated identifier or
-greater are rejected (<a href="#request-cancellation" class="xref">Section 4.1.1</a>) by the sender of the <a href="#frame-goaway" class="xref">GOAWAY</a><span id="iref-goaway-123" class="iref"></span>.
-This identifier          <span class="bcp14">MAY</span>
- be zero if no requests or pushes were processed.<a href="#section-5.2-1" class="pilcrow">¶</a></p>
+ID</a><span id="iref-push-id-122" class="iref"></span>.  Requests or pushes with the indicated identifier or greater are rejected
+(<a href="#request-cancellation" class="xref">Section 4.1.1</a>) by the sender of the <a href="#frame-goaway" class="xref">GOAWAY</a><span id="iref-goaway-123" class="iref"></span>. This identifier          <span class="bcp14">MAY</span>
+ be
+zero if no requests or pushes were processed.<a href="#section-5.2-1" class="pilcrow">¶</a></p>
 <p id="section-5.2-2">The information in the <a href="#frame-goaway" class="xref">GOAWAY</a><span id="iref-goaway-124" class="iref"></span> frame enables a client and server to agree on
 which requests or pushes were accepted prior to the shutdown of the HTTP/3
 connection. Upon sending a <a href="#frame-goaway" class="xref">GOAWAY</a><span id="iref-goaway-125" class="iref"></span> frame, the endpoint          <span class="bcp14">SHOULD</span>
