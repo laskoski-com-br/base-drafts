@@ -8,7 +8,7 @@ Category: Standards Track                                      M. Bishop
 ISSN: 2070-1721                                      Akamai Technologies
                                                         A. Frindell, Ed.
                                                                 Facebook
-                                                                May 2022
+                                                               June 2022
 
 
                   QPACK: Field Compression for HTTP/3
